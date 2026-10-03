@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件"><UniqueIdentifier>{B4A5FA50-7FC8-4CE2-904A-395D5C9A81F7}</UniqueIdentifier><Extensions>cpp;c;cc;cxx</Extensions></Filter>
+    <Filter Include="资源文件"><UniqueIdentifier>{D6DB3D0D-2E37-4B21-8F33-AD4E1C8AC6B8}</UniqueIdentifier><Extensions>rc;ico</Extensions></Filter>
+  </ItemGroup>
+  <ItemGroup><ClCompile Include="main.cpp"><Filter>源文件</Filter></ClCompile></ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc"><Filter>资源文件</Filter></ResourceCompile>
+    <None Include="icon.ico"><Filter>资源文件</Filter></None>
+  </ItemGroup>
+</Project>
